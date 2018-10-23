@@ -1,0 +1,49 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
+
+    "rushVersion": "5.3.4",
+
+    "pnpmVersion": "2.16.3",
+
+    "pnpmOptions": {
+        "strictPeerDependencies": true
+    },
+
+    "nodeSupportedVersionRange": ">=8.9.4 <9.0.0 || >=10.12.0 <11.0.0",
+
+    "ensureConsistentVersions": true,
+
+    "projectFolderMinDepth": 2,
+    "projectFolderMaxDepth": 2,
+
+    "approvedPackagesPolicy": {
+        "reviewCategories": ["libraries", "tests"],
+        "ignoredNpmScopes": ["@types"]
+    },
+
+    "gitPolicy": {
+        "allowedEmailRegExps": [
+            "[^@]+@users\\.noreply\\.github\\.com",
+            "travis@example\\.org"
+        ],
+        "sampleEmail": "mrexample@users.noreply.github.com"
+    },
+
+    "repository": {},
+
+    "eventHooks": {
+        "preRushInstall": [],
+        "postRushInstall": [],
+        "preRushBuild": [],
+        "postRushBuild": []
+    },
+
+    "projects": [
+        {
+            "packageName": "microbx",
+            "projectFolder": "apps/microbx",
+            "reviewCategory": "libraries",
+            "versionPolicyName": "microbx"
+        }
+    ]
+}

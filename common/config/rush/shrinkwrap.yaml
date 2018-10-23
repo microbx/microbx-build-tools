@@ -1,0 +1,15 @@
+dependencies:
+  '@rush-temp/microbx': 'file:projects/microbx.tgz'
+packages:
+  'file:projects/microbx.tgz':
+    dev: false
+    name: '@rush-temp/microbx'
+    resolution:
+      integrity: sha512-eXgBi6XQuia0CcnY2ntHf8Ug7a954xummjrd7LIq2L8FG+mm9zYGYfFFxSV87Vb2I/VrwoBqrBFqQUkekwh9wg==
+      tarball: 'file:projects/microbx.tgz'
+    version: 0.0.0
+registry: 'http://localhost:4873/'
+shrinkwrapMinorVersion: 9
+shrinkwrapVersion: 3
+specifiers:
+  '@rush-temp/microbx': 'file:./projects/microbx.tgz'

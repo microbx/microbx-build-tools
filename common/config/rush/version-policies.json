@@ -1,0 +1,9 @@
+[
+    {
+        "policyName": "microbx",
+        "definitionName": "lockStepVersion",
+        "version": "0.0.1",
+        "nextBump": "patch",
+        "mainProject": "microbx"
+    }
+]
